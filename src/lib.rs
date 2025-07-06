@@ -371,7 +371,7 @@ mod tests {
     fn test_hex_macro() {
         assert_eq!(hex!("FF"), 255);
         assert_eq!(hex!("100"), 256);
-        assert_eq!(hex!("8320b84"), 137626500);
+        assert_eq!(hex!("8320b84"), 137497476);
     }
 
     #[test]
