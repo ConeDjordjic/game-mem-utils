@@ -10,7 +10,7 @@ repository = "https://github.com/ConeDjordjic/game-mem-utils"
 homepage = "https://github.com/ConeDjordjic/game-mem-utils"
 documentation = "https://docs.rs/game-mem-utils"
 readme = "README.md"
-keywords = ["memory", "game", "linux", "hacking", "process"]
+keywords = ["memory", "gamehacking", "linux", "process"]
 categories = ["development-tools", "game-development"]
 
 [lib]
