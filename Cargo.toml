@@ -1,0 +1,23 @@
+[package]
+name = "game_mem_utils"
+version = "0.1.0"
+edition = "2024"
+
+authors = ["ConeDjordjic cone.djordjic@gmail.com"]
+description = "A Rust library for game memory manipulation utilities on Linux"
+license = "MIT"
+repository = "https://github.com/ConeDjordjic/game-mem-utils"
+homepage = "https://github.com/ConeDjordjic/game-mem-utils"
+documentation = "https://docs.rs/game-mem-utils"
+readme = "README.md"
+keywords = ["memory", "game", "linux", "hacking", "process"]
+categories = ["development-tools", "game-development"]
+
+[lib]
+name = "game_mem_utils"
+path = "src/lib.rs"
+[dependencies]
+
+[[example]]
+name = "basic_usage"
+path = "examples/basic_usage.rs"
