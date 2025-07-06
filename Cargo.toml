@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 authors = ["ConeDjordjic cone.djordjic@gmail.com"]
-description = "A Rust library for game memory manipulation utilities on Linux"
+description = "A Rust library for game memory manipulation on Linux"
 license = "MIT"
 repository = "https://github.com/ConeDjordjic/game-mem-utils"
 homepage = "https://github.com/ConeDjordjic/game-mem-utils"
