@@ -55,7 +55,7 @@ let text = mem.read_string(0x12345678, 64)?;        // null-terminated string
 mem.write_at(0x12345678, 42u32)?;                   // absolute address
 mem.write(0x1000, 100i32)?;                         // offset from base
 mem.write_hex("1000", 200u32)?;                     // hex string offset
-mem.write_bytes(0x12345678, &[0x41, 0x42, 0x43])?; // raw bytes
+mem.write_bytes(0x12345678, &[0x41, 0x42, 0x43])?;  // raw bytes
 ```
 
 ### Utilities
@@ -73,4 +73,4 @@ let module_base = mem.find_module_base("module.so")?;
 
 ## License
 
-Licensed under either Apache-2.0 or MIT license.
+Licensed under the MIT license.
