@@ -8,7 +8,7 @@ Add to your `Cargo.toml` or use `cargo add game_mem_utils`:
 
 ```toml
 [dependencies]
-game_mem_utils = "0.1.1"
+game_mem_utils = "0.1.2"
 ```
 
 Example:
