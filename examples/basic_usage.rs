@@ -1,8 +1,8 @@
 use game_mem_utils::{GameMemUtils, hex};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    // Create a new GameMemUtils instance by process name
-    let mut mem = GameMemUtils::new("h3hota HD.exe")?;
+    // Create a new GameMemUtils instance by process name and no debug
+    let mem = GameMemUtils::new("h3hota HD.exe", false)?;
 
     // Read current gold value at an absolute address
     let gold: u32 = mem.read_at(hex!("8320b84"))?;
